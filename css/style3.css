@@ -1,0 +1,1318 @@
+@import url("https://fonts.googleapis.com/css?family=Overpass");
+body {
+    font-family: "Rubik", sans-serif;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 14px;
+    align-items: center;
+}
+
+/* line 10, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+.message_submit_form:focus {
+    outline: none;
+}
+
+/* line 13, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+input:hover,
+input:focus {
+    outline: none !important;
+}
+
+/* line 17, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+.gray_bg {
+    background-color: #f4f4f4;
+}
+
+/* line 20, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+.section_padding {
+    padding: 200px 0px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 20, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .section_padding {
+        padding: 100px 0px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 20, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .section_padding {
+        padding: 70px 0px;
+    }
+}
+
+@media (max-width: 576px) {
+    /* line 20, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .section_padding {
+        padding: 70px 0px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 20, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .section_padding {
+        padding: 70px 0px;
+    }
+}
+
+/* line 39, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+.single_padding_top {
+    padding-top: 200px !important;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 39, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .single_padding_top {
+        padding-top: 70px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 39, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .single_padding_top {
+        padding-top: 70px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    /* line 39, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .single_padding_top {
+        padding-top: 70px !important;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 39, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .single_padding_top {
+        padding-top: 100px !important;
+    }
+}
+
+/* line 58, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+.padding_top {
+    padding-top: 200px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 58, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .padding_top {
+        padding-top: 100px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 58, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .padding_top {
+        padding-top: 70px;
+    }
+}
+
+@media (max-width: 576px) {
+    /* line 58, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .padding_top {
+        padding-top: 70px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 58, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .padding_top {
+        padding-top: 70px;
+    }
+}
+
+/* line 77, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+.padding_bottom {
+    padding-bottom: 200px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 77, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .padding_bottom {
+        padding-bottom: 100px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 77, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .padding_bottom {
+        padding-bottom: 70px;
+    }
+}
+
+@media (max-width: 576px) {
+    /* line 77, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .padding_bottom {
+        padding-bottom: 70px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 77, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .padding_bottom {
+        padding-bottom: 70px;
+    }
+}
+
+/* line 97, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+a {
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+/* line 101, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+a:hover {
+    outline: none;
+    text-decoration: none;
+}
+
+/* line 106, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #4B3049;
+    font-family: "Poppins", sans-serif;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+/* line 117, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+
+/* line 126, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+h2 {
+    font-size: 44px;
+    line-height: 28px;
+    color: #4B3049;
+    font-weight: 600;
+    line-height: 1.222;
+}
+
+@media (max-width: 576px) {
+    /* line 126, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    h2 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 126, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    h2 {
+        font-size: 24px;
+        line-height: 25px;
+    }
+}
+
+/* line 146, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+h3 {
+    font-size: 24px;
+    line-height: 25px;
+}
+
+@media (max-width: 576px) {
+    /* line 146, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    h3 {
+        font-size: 20px;
+    }
+}
+
+/* line 156, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+h5 {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+/* line 161, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+img {
+    max-width: 100%;
+}
+
+/* line 165, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+a:focus,
+.button:focus,
+button:focus,
+.btn:focus {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+/* line 175, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+.section_tittle {
+    margin-bottom: 80px;
+}
+
+@media (max-width: 991px) {
+    /* line 175, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .section_tittle {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 175, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .section_tittle {
+        margin-bottom: 40px;
+    }
+}
+
+/* line 186, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+.section_tittle h2 {
+    font-size: 36px;
+    color: #4B3049;
+    line-height: 27px;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 28px;
+}
+
+@media (max-width: 576px) {
+    /* line 186, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .section_tittle h2 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 186, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .section_tittle h2 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 186, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .section_tittle h2 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 186, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .section_tittle h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
+
+/* line 219, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+.section_tittle p {
+    color: #556172;
+    text-transform: capitalize;
+    line-height: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 576px) {
+    /* line 219, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .section_tittle p {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 219, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .section_tittle p {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 219, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .section_tittle p {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 219, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .section_tittle p {
+        margin-bottom: 10px;
+    }
+}
+
+/* line 243, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* line 249, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+.mb_110 {
+    margin-bottom: 110px;
+}
+
+@media (max-width: 576px) {
+    /* line 249, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .mb_110 {
+        margin-bottom: 220px;
+    }
+}
+
+/* line 258, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+.mt_130 {
+    margin-top: 130px;
+}
+
+@media (max-width: 576px) {
+    /* line 258, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .mt_130 {
+        margin-top: 70px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 258, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .mt_130 {
+        margin-top: 70px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 258, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .mt_130 {
+        margin-top: 70px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 258, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .mt_130 {
+        margin-top: 70px;
+    }
+}
+
+/* line 278, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+.mb_130 {
+    margin-bottom: 140px;
+}
+
+@media (max-width: 991px) {
+    /* line 278, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .mb_130 {
+        margin-bottom: 70px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 278, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .mb_130 {
+        margin-bottom: 100px;
+    }
+}
+
+/* line 290, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+.padding_less_40 {
+    margin-bottom: -50px;
+}
+
+/* line 294, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+.z_index {
+    z-index: 9 !important;
+    position: relative;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 3640px) {
+    /* line 300, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    .container {
+        max-width: 1170px;
+    }
+}
+
+@media (max-width: 1200px) {
+    /* line 306, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+    [class*="hero-ani-"] {
+        display: none !important;
+    }
+}
+
+/* line 311, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dddddd;
+    outline: 0;
+    box-shadow: none;
+}
+
+/* line 320, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+.pageination .page-link {
+    border: 0px solid transparent;
+    font-weight: 500;
+    font-size: 18px;
+    color: #979797;
+    padding: 10px 8px;
+}
+
+/* line 326, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+.pageination .page-link:hover {
+    background-color: transparent;
+    color: #000;
+}
+
+/* line 331, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+.pageination i {
+    font-size: 12px;
+}
+
+/* line 335, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+.sidebar_box_shadow {
+    box-shadow: 0px 10px 10px 0px rgba(153, 153, 153, 0.1);
+}
+
+/* line 338, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+.border_top {
+    border-top: 1px solid #eee;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+/* line 343, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
+.section_bg {
+    background-color: #f4edf278;
+}
+/**************** common css end ****************/
+/**************menu part start*****************/
+/* line 3, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+.main_menu .navbar-brand {
+    padding-top: 0rem;
+    padding-bottom: 0px;
+}
+
+/* line 7, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+.main_menu .navbar {
+    padding: 0px;
+}
+
+/* line 12, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+.main_menu .main-menu-item ul li .nav-link {
+    color: #4B3049;
+    font-size: 16px;
+    padding: 35px 21px;
+    font-family: "Rubik", sans-serif;
+    text-transform: capitalize;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+/* line 20, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+.main_menu .main-menu-item ul li .nav-link:hover {
+    color: #795376 !important;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 12, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+    .main_menu .main-menu-item ul li .nav-link {
+        padding: 35px 20px;
+    }
+}
+
+/* line 29, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+.main_menu #search_1 {
+    padding-top: 4px;
+}
+
+/* line 31, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+.main_menu #search_1 i {
+    color: #000;
+}
+
+/* line 35, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+.main_menu #search_input_box {
+    position: fixed;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1140px;
+    z-index: 999;
+    text-align: center;
+    background: #B08EAD;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* line 49, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+.main_menu #search_input_box ::placeholder {
+    color: #fff;
+}
+
+@media (max-width: 991px) {
+    /* line 35, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+    .main_menu #search_input_box {
+        margin-top: 15px;
+    }
+}
+
+/* line 58, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+.main_menu #search_input_box .form-control {
+    background: transparent;
+    border: 0;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0;
+}
+
+/* line 66, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+.main_menu #search_input_box .btn {
+    width: 0;
+    height: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* line 72, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+.main_menu #search_input_box .ti-close {
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px;
+    padding-right: 0;
+}
+
+/* line 79, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+.main_menu .search-inner {
+    padding: 5px 5px;
+}
+
+/* line 82, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+.main_menu .form-control:focus {
+    box-shadow: none;
+}
+
+/* line 85, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+.main_menu .active_color {
+    color: #f5790b !important;
+}
+
+/* line 89, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+.main_menu a i {
+    color: #4B3049 !important;
+    position: relative;
+    z-index: 1;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+/* line 98, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+.main_menu .cart .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border: 0px solid transparent;
+}
+
+/* line 106, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+.main_menu .cart i {
+    position: relative;
+    z-index: 1;
+}
+
+/* line 113, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+.menu_fixed {
+    position: fixed;
+    z-index: 9999 !important;
+    width: 100%;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
+    top: 0;
+    background-color: #fff;
+}
+
+/* line 121, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+.menu_fixed .active_color {
+    color: #B08EAD !important;
+}
+
+/* line 127, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+.dropdown .dropdown-menu {
+    transition: all 0.5s;
+    overflow: hidden;
+    transform-origin: top center;
+    transform: scale(1, 0);
+    display: block;
+    border: 0px solid transparent;
+    background-color: #B08EAD;
+}
+
+/* line 135, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+.dropdown .dropdown-menu .dropdown-item {
+    font-size: 14px;
+    padding: 8px 20px !important;
+    color: #fff !important;
+    background-color: #B08EAD;
+    text-transform: capitalize;
+}
+
+@media (min-width: 991px) {
+    /* line 147, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+    .dropdown:hover .dropdown-menu {
+        transform: scale(1);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+    /* line 154, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+@media (max-width: 991px) {
+    /* line 161, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+    .main_menu {
+        padding: 26px 0px;
+    }
+    /* line 165, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+    .home_menu .main-menu-item {
+        padding-left: 0px;
+    }
+    /* line 169, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+    .main_menu .main-menu-item {
+        text-align: left !important;
+        max-height: 300px;
+        overflow: scroll;
+    }
+    /* line 173, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+    .main_menu .main-menu-item .nav-item {
+        padding: 10px 15px !important;
+    }
+    /* line 176, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+    .main_menu .main-menu-item .nav-item .nav-link {
+        padding: 5px 15px !important;
+        color: #000;
+    }
+    /* line 183, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+    .navbar-collapse {
+        z-index: 9999 !important;
+        position: absolute;
+        left: 0;
+        top: 50px;
+        width: 100%;
+        background-color: #fff;
+        text-align: center !important;
+    }
+    /* line 194, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+    .dropdown .dropdown-menu {
+        transform: scale(1, 0);
+        display: none;
+        margin-top: 10px;
+    }
+    /* line 201, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+    .dropdown:hover .show {
+        transform: scale(1);
+        display: block;
+        color: #B08EAD;
+    }
+    /* line 208, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+    .dropdown .dropdown-item:hover {
+        color: #B08EAD !important;
+    }
+    /* line 213, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+    .navbar-brand img {
+        max-width: 120px;
+        margin: 0 auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        display: inline-block;
+        top: 3px;
+    }
+    /* line 223, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+    .navbar-light .navbar-toggler {
+        border-color: transparent;
+        position: absolute;
+        left: 0;
+    }
+    /* line 230, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+    .menu_icon i {
+        color: #000;
+    }
+    /* line 235, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+    .main_menu a i {
+        margin-left: 13px;
+    }
+}
+
+@media (max-width: 576px) {
+    /* line 241, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+    .main_menu {
+        padding: 20px 0px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 247, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+    .main_menu {
+        padding: 20px 0px;
+    }
+}
+
+/* line 252, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+.dropdown-menu {
+    border: 0px solid rgba(0, 0, 0, 0.15) !important;
+    background-color: #fafafa;
+}
+
+/* line 259, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
+.main-menu-item {
+    justify-content: center !important;
+}
+
+
+
+
+
+/* line 1, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_client_review.scss */
+.client_review {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #B08EAD;
+    position: relative;
+}
+
+@media (max-width: 991px) {
+    /* line 1, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_client_review.scss */
+    .client_review {
+        padding: 70px 0;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 1, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_client_review.scss */
+    .client_review {
+        padding: 80px 0;
+    }
+}
+
+/* line 12, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_client_review.scss */
+.client_review img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* line 16, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_client_review.scss */
+.client_review p {
+    font-size: 24px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+@media (max-width: 991px) {
+    /* line 16, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_client_review.scss */
+    .client_review p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 16, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_client_review.scss */
+    .client_review p {
+        font-size: 20px;
+    }
+}
+
+/* line 27, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_client_review.scss */
+.client_review h5 {
+    font-size: 16px;
+    margin-top: 25px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+/* line 34, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_client_review.scss */
+.client_review .client_img {
+    max-width: 105px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+/* line 39, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_client_review.scss */
+.client_review .client_img:after {
+    position: absolute;
+    content: "";
+    right: -8px;
+    bottom: -10px;
+    content: '\f100';
+    font-family: 'Flaticon';
+    height: 50px;
+    width: 50px;
+    background-color: #E4D3DF;
+    font-size: 14px;
+    border-radius: 50%;
+    line-height: 50px;
+    color: #fff;
+}
+
+/* line 56, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_client_review.scss */
+.client_review .owl-nav button.owl-prev, .client_review .owl-nav button.owl-next {
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid #795376;
+    color: #795376;
+    position: absolute;
+    left: -26%;
+    top: 48%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+/* line 68, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_client_review.scss */
+.client_review .owl-nav button.owl-prev:hover, .client_review .owl-nav button.owl-next:hover {
+    background-color: #795376;
+    color: #fff;
+}
+
+/* line 73, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_client_review.scss */
+.client_review .owl-nav button.owl-next {
+    text-indent: 2px;
+    left: auto;
+    right: -26%;
+}
+
+/**************** service_part css start ****************/
+/* line 4, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_feature_part.scss */
+.feature_part .feature_part_tittle h3 {
+    font-size: 40px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+@media (max-width: 991px) {
+    /* line 4, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_feature_part.scss */
+    .feature_part .feature_part_tittle h3 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 4, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_feature_part.scss */
+    .feature_part .feature_part_tittle h3 {
+        font-size: 30px;
+    }
+}
+
+/* line 17, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_feature_part.scss */
+.feature_part .feature_part_content p {
+    color: #707070;
+}
+
+/* line 21, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_feature_part.scss */
+.feature_part .single_feature_part {
+    text-align: center;
+    border: 1px solid #E4D3DF;
+    padding: 35px;
+    margin-top: 100px;
+}
+
+@media (max-width: 991px) {
+    /* line 21, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_feature_part.scss */
+    .feature_part .single_feature_part {
+        margin-top: 30px;
+        padding: 25px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 21, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_feature_part.scss */
+    .feature_part .single_feature_part {
+        padding: 25px 14px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 21, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_feature_part.scss */
+    .feature_part .single_feature_part {
+        margin-top: 30px;
+    }
+}
+
+/* line 36, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_feature_part.scss */
+.feature_part .single_feature_part img {
+    max-width: 42px;
+    min-height: 40px;
+    margin-bottom: 20px;
+}
+
+/* line 41, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_feature_part.scss */
+.feature_part .single_feature_part h4 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+/* line 1, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_subscribe_part.scss */
+.subscribe_part {
+    background-color: #4B3049;
+}
+
+/* line 3, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_subscribe_part.scss */
+.subscribe_part .subscribe_part_content {
+    text-align: center;
+}
+
+/* line 5, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_subscribe_part.scss */
+.subscribe_part .subscribe_part_content h2 {
+    color: #fff;
+}
+
+@media (max-width: 991px) {
+    /* line 5, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_subscribe_part.scss */
+    .subscribe_part .subscribe_part_content h2 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 5, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_subscribe_part.scss */
+    .subscribe_part .subscribe_part_content h2 {
+        font-size: 30px;
+    }
+}
+
+/* line 14, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_subscribe_part.scss */
+.subscribe_part .subscribe_part_content p {
+    color: #fff;
+}
+
+/* line 18, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_subscribe_part.scss */
+.subscribe_part .subscribe_form {
+    margin: 0 auto;
+    margin-top: 45px;
+    position: relative;
+    max-width: 558px;
+}
+
+/* line 23, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_subscribe_part.scss */
+.subscribe_part .subscribe_form input {
+    border: 1px solid #fff;
+    width: 100%;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 50px;
+    padding: 19px 30px;
+    line-height: 20px;
+}
+
+/* line 32, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_subscribe_part.scss */
+.subscribe_part .subscribe_form .btn_1 {
+    padding: 15px 30px;
+    line-height: 16px;
+    border-radius: 50px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+@media (max-width: 991px) {
+    /* line 32, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_subscribe_part.scss */
+    .subscribe_part .subscribe_form .btn_1 {
+        padding: 15px 15px;
+    }
+}
+
+/* line 43, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_subscribe_part.scss */
+.subscribe_part .subscribe_form ::placeholder {
+    color: #E4D3DF;
+}
+
+
+/**********************footer part css*******************/
+/* line 3, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_footer.scss */
+.footer_part .footer_iner {
+    padding: 120px 0;
+}
+
+@media (max-width: 991px) {
+    /* line 3, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_footer.scss */
+    .footer_part .footer_iner {
+        padding: 70px 0;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 3, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_footer.scss */
+    .footer_part .footer_iner {
+        padding: 100px 0;
+    }
+}
+
+/* line 11, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_footer.scss */
+.footer_part .footer_iner .footer_menu {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 991px) {
+    /* line 11, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_footer.scss */
+    .footer_part .footer_iner .footer_menu {
+        display: block;
+    }
+}
+
+/* line 19, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_footer.scss */
+.footer_part .footer_iner .footer_logo a {
+    display: inline-block;
+    margin-right: 45px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 19, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_footer.scss */
+    .footer_part .footer_iner .footer_logo a {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    /* line 27, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_footer.scss */
+    .footer_part .footer_iner .footer_menu_item {
+        margin-top: 15px;
+    }
+}
+
+/* line 31, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_footer.scss */
+.footer_part .footer_iner .footer_menu_item a {
+    display: inline-block;
+    color: #4B3049;
+    font-size: 16px;
+    padding: 0 17px;
+}
+
+@media (max-width: 991px) {
+    /* line 31, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_footer.scss */
+    .footer_part .footer_iner .footer_menu_item a {
+        padding: 0 15px 0 0;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 31, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_footer.scss */
+    .footer_part .footer_iner .footer_menu_item a {
+        padding: 0 7px;
+    }
+}
+
+/* line 42, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_footer.scss */
+.footer_part .footer_iner .footer_menu_item a:hover {
+    color: #E4D3DF;
+}
+
+/* line 48, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_footer.scss */
+.footer_part .social_icon {
+    text-align: right;
+}
+
+@media (max-width: 991px) {
+    /* line 48, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_footer.scss */
+    .footer_part .social_icon {
+        text-align: left;
+        margin-top: 25px;
+    }
+}
+
+/* line 54, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_footer.scss */
+.footer_part .social_icon a {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: #4B3049;
+    line-height: 45px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+}
+
+/* line 63, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_footer.scss */
+.footer_part .social_icon a:hover {
+    background-color: #E4D3DF;
+}
+
+/* line 69, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_footer.scss */
+.footer_part .copyright_part {
+    background-color: #F4EDF2;
+    padding: 30px 0px;
+}
+
+/* line 72, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_footer.scss */
+.footer_part .copyright_part .copyright_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 991px) {
+    /* line 72, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_footer.scss */
+    .footer_part .copyright_part .copyright_text {
+        display: block;
+    }
+}
+
+/* line 80, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_footer.scss */
+.footer_part .copyright_part .copyright_text p a {
+    color: #4B3049;
+}
+
+@media (max-width: 991px) {
+    /* line 85, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_footer.scss */
+    .footer_part .copyright_part .copyright_link {
+        margin-top: 20px;
+    }
+}
+
+/* line 89, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_footer.scss */
+.footer_part .copyright_part .copyright_link a {
+    color: #4B3049;
+    margin-left: 40px;
+}
+
+@media (max-width: 991px) {
+    /* line 89, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_footer.scss */
+    .footer_part .copyright_part .copyright_link a {
+        margin-left: auto;
+        margin-right: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+.card-grid {
+    scrollbar-color: #201c29;
+    scrollbar-width: 10px;
+    scrollbar-gutter: always;
+    padding: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.card {
+    cursor: pointer;
+    width: 300px;
+    height: 450px;
+    border-radius: 16px;
+    background-color: #fff;
+    -webkit-box-shadow: -1rem 0 3rem #838689;
+    box-shadow: -1rem 0 3rem #838689;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.dismiss-card {
+    transform: translateY(-200em) !important;
+}
+
+.reveal-details {
+    padding: 20px;
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    overflow-y: auto;
+    left: 0;
+    top: 100%;
+    height: 100%;
+    z-index: 3;
+    display: none;
+    animation: fadeInDetails 0.3s forwards;
+}
+
+@keyframes fadeInDetails {
+    0% {
+        display: none;
+        transform: translateY(0);
+    }
+    100% {
+        z-index: 1;
+        display: block;
+        transform: translateY(-100%);
+    }
+}
+.card:hover .reveal-details {
+    z-index: 1;
+    display: block;
+}
+.card:hover .reveal-details p:nth-child(1) {
+    animation: animParagraphDetails 1s forwards;
+}
+.card:hover .reveal-details p:nth-child(2) {
+    animation: animParagraphDetails 1s forwards;
+}
+.card:hover .reveal-details p:nth-child(3) {
+    animation: animParagraphDetails 1s forwards;
+}
+
+@keyframes animParagraphDetails {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.card:hover {
+    -webkit-transform: translate(0, -1rem);
+    transform: translate(0, -1rem);
+}
+
+.card:hover ~ .card {
+    -webkit-transform: translateX(130px);
+    transform: translateX(130px);
+}
+
+.card-img {
+    width: 100%;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.card-img img {
+    display: block;
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.card-details {
+    padding: 24px;
+    border-radius: 0 0 2px 2px;
+}
